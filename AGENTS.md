@@ -11,6 +11,7 @@ Load the `mastra` skill BEFORE any Mastra work. Never rely on cached knowledge â
 - Use the `dev` and `build` scripts from `package.json` instead of running `mastra dev` / `mastra build` directly
 - Point agents at the custom endpoint with `customModelId()` or `"<OPENAI_COMPATIBLE_ID>/<served-model-name>"`
 - Do not use Mastra's built-in `webSearchTool` with custom OpenAI-compatible servers. It only works with OpenAI, Anthropic, Google, and xAI native search. Use `webFetchTool` or a third-party search API instead.
+- Never add `Co-authored-by` trailers for Cursor, coding agents, or bots. Agents must not appear as GitHub contributors.
 
 ## Resources
 
