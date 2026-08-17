@@ -1,0 +1,37 @@
+{
+  "name": "mastra-openai-compatible-template",
+  "version": "1.0.0",
+  "description": "Cloneable Mastra starter with a custom OpenAI-compatible model gateway (vLLM, LM Studio, Ollama, llama.cpp, and similar).",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "mastra dev",
+    "build": "mastra build",
+    "start": "mastra start"
+  },
+  "keywords": [
+    "mastra",
+    "openai-compatible",
+    "vllm",
+    "lmstudio",
+    "ollama",
+    "custom-gateway"
+  ],
+  "dependencies": {
+    "@ai-sdk/openai-compatible-v5": "npm:@ai-sdk/openai-compatible@^1.0.46",
+    "@mastra/core": "1.59.0",
+    "@mastra/libsql": "1.20.0",
+    "@mastra/memory": "1.26.2",
+    "@mastra/observability": "1.17.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "mastra": "1.25.0",
+    "typescript": "^6.0.3"
+  }
+}
