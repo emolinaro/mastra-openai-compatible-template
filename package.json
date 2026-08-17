@@ -11,7 +11,8 @@
   "scripts": {
     "dev": "mastra dev",
     "build": "mastra build",
-    "start": "mastra start"
+    "start": "mastra start",
+    "update:mastra": "npm install @mastra/core@latest @mastra/libsql@latest @mastra/memory@latest @mastra/observability@latest mastra@latest && npx skills update mastra"
   },
   "keywords": [
     "mastra",
